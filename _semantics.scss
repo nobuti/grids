@@ -18,3 +18,13 @@ $columns: (one, two, three, four, five, six, seven, eight, nine, ten, eleven, tw
     }
   }
 }
+
+@each $part in $columns {
+  @each $of in $columns {
+    @if (semantic-to-number($part) < semantic-to-number($of)) {
+      .push-#{$part}-of-#{$of} {
+        margin-left: percent(semantic-to-number($part), semantic-to-number($of));
+      }
+    }
+  }
+}
