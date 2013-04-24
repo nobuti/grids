@@ -14,4 +14,4 @@ or
        <div class="content"></div>
     </div>
 
-It is a float based system, to avoid the akwards parts of inline-block display. It is heavily influenced by the work of @marcelinollano at bebanjo and the amazing job of Harry Roberts - @csswizardry.
+It is a float based system, to avoid the akwards parts of inline-block display. It is heavily influenced by the work of @marcelinollano at bebanjo and the amazing job of Harry Roberts - @csswizardry. Rocks!
