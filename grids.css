@@ -1,4 +1,4 @@
-.column {
+.column, .columns {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -16,6 +16,12 @@
 
 .half {
   width: 50%; }
+
+.thirth {
+  width: 33.33%; }
+
+.quarter {
+  width: 25%; }
 
 .percent.five {
   width: 5%; }
@@ -455,15 +461,21 @@
   margin-left: 91.66667%; }
 
 .row {
-  margin: 0;
-  padding: 0;
-  margin-left: -24px; }
+  margin-bottom: 20px;
+  margin-left: -10px; }
   .row.full {
     margin-left: 0; }
     .row.full > .column {
       padding-left: 0; }
+  .row:last-child {
+    margin-bottom: 0; }
+    .row:last-child > .row:last-child {
+      margin-bottom: 0; }
 
-.column {
+.column, .columns {
   float: left;
-  padding-left: 24px;
+  padding-left: 10px;
   vertical-align: top; }
+  .column.alfa, .columns.alfa {
+    padding-left: 0;
+    padding-right: 10px; }
